@@ -4,3 +4,5 @@ My education...
 Обучаемся DevOps вместе с R_D!!!
 
 Используем BASH и Python
+
+TEST Rebase
