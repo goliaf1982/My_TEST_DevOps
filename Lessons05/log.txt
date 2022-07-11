@@ -1,0 +1,112 @@
+/var/log:
+total 916
+-rw-rw----  1 root     utmp                   0 Jul 10 08:06 btmp
+-rw-r--r--  1 root     root                   0 Jul 10 08:06 alternatives.log
+-rw-r--r--  1 root     root                 484 Jun 28 12:02 fontconfig.log
+-rw-rw----  1 root     utmp                1152 Jun 29 23:00 btmp.1
+-rw-rw-r--  1 root     utmp                8064 Jul 11 10:30 wtmp
+-rw-r-----  1 root     adm                10698 Jul 10 08:06 cloud-init-output.log
+-rw-r--r--  1 root     root               17663 Jun 29 21:31 alternatives.log.1
+-rw-r--r--  1 root     root               22050 Jul 11 18:33 dpkg.log
+-rw-r--r--  1 root     root               64549 Apr 21 00:57 bootstrap.log
+-rw-r--r--  1 root     adm               242416 Jul 10 08:06 cloud-init.log
+-rw-r--r--  1 root     root              528334 Jun 30 06:07 dpkg.log.1
+-rw-r--r--  1 root     root             2049792 Jun 28 14:12 faillog
+-rw-rw-r--  1 root     utmp            18704352 Jul 11 10:30 lastlog
+
+/var/log/private:
+total 0
+
+/var/log/openvpn:
+total 0
+
+/var/log/dist-upgrade:
+total 0
+
+/var/log/libvirt:
+total 0
+
+/var/log/libvirt/uml:
+total 0
+
+/var/log/libvirt/qemu:
+total 0
+
+/var/log/libvirt/lxc:
+total 0
+
+/var/log/minidlna:
+total 20
+-rw-r--r-- 1 minidlna minidlna   318 Jul 11 18:31 minidlna.log
+-rw-r--r-- 1 minidlna minidlna 14366 Jun 28 19:32 minidlna.log.1
+
+/var/log/journal:
+total 0
+
+/var/log/journal/16ac5c6604b0404cb6ee576cff8738da:
+total 24576
+-rw-r-----+ 1 root systemd-journal  8388608 Jul 11 19:37 user-1000.journal
+-rw-r-----+ 1 root systemd-journal 16777216 Jul 11 19:15 system.journal
+
+/var/log/apt:
+total 76
+-rw-r--r-- 1 root root  2375 Jul 11 18:33 history.log
+-rw-r--r-- 1 root root 11810 Jun 30 06:07 history.log.1.gz
+-rw-r----- 1 root adm  12239 Jul 11 18:33 term.log
+-rw-r----- 1 root adm  15273 Jun 30 06:07 term.log.1.gz
+-rw-r--r-- 1 root root 29004 Jul 11 18:33 eipp.log.xz
+
+/var/log/samba:
+total 72
+-rw-r--r-- 1 root root     0 Jun 28 12:08 log.192.168.88.253
+-rw-r--r-- 1 root root   334 Jul 11 10:35 log.smbd
+-rw-r--r-- 1 root root   617 Jun 28 14:14 log.nmbd.1
+-rw-r--r-- 1 root root   754 Jul 10 08:52 log.nmbd
+-rw-r--r-- 1 root root  1002 Jun 28 13:05 log.smbd.1
+-rw-r--r-- 1 root root  1096 Jul 11 10:35 log.samba-bgqd
+-rw-r--r-- 1 root root 49693 Jul 11 10:38 log.home-pc
+
+/var/log/samba/cores:
+total 0
+
+/var/log/samba/cores/smbd:
+total 0
+
+/var/log/samba/cores/samba-bgqd:
+total 0
+
+/var/log/samba/cores/nmbd:
+total 0
+
+/var/log/unattended-upgrades:
+total 28
+-rw-r--r-- 1 root root    0 Jul 10 08:06 unattended-upgrades-shutdown.log
+-rw-r--r-- 1 root root  129 Jun 28 11:03 unattended-upgrades-shutdown.log.1.gz
+-rw-r--r-- 1 root root  861 Jun 30 06:07 unattended-upgrades.log.1.gz
+-rw-r--r-- 1 root adm  1917 Jun 30 06:07 unattended-upgrades-dpkg.log.1.gz
+-rw-r--r-- 1 root root 2668 Jul 11 06:52 unattended-upgrades.log
+-rw-r--r-- 1 root adm  8881 Jul 11 06:52 unattended-upgrades-dpkg.log
+
+/var/log/installer:
+total 760
+lrwxrwxrwx 1 root root     30 Jun 28 10:51 subiquity-server-info.log -> subiquity-server-info.log.2164
+lrwxrwxrwx 1 root root     30 Jun 28 10:51 subiquity-client-info.log -> subiquity-client-info.log.2135
+lrwxrwxrwx 1 root root     31 Jun 28 10:51 subiquity-server-debug.log -> subiquity-server-debug.log.2164
+lrwxrwxrwx 1 root root     31 Jun 28 10:51 subiquity-client-debug.log -> subiquity-client-debug.log.2135
+-rw-r--r-- 1 root root     52 Jun 28 10:54 casper-md5check.json
+-rw-r--r-- 1 root root     68 Jun 28 10:54 media-info
+-rw-r----- 1 root adm     285 Jun 28 10:52 subiquity-curtin-apt.conf
+-rw-r----- 1 root adm    2646 Jun 28 10:56 autoinstall-user-data
+-rw-r----- 1 root adm    3332 Jun 28 10:54 subiquity-curtin-install.conf
+-rw-r----- 1 root adm    3649 Jun 28 10:55 subiquity-client-info.log.2135
+-r-------- 1 root root   3859 Jun 28 10:54 curtin-install-cfg.yaml
+-rw-r----- 1 root adm    9905 Jun 28 10:57 subiquity-server-info.log.2164
+-rw-r----- 1 root adm   33162 Jun 28 10:55 subiquity-client-debug.log.2135
+-r-------- 1 root root  99610 Jun 28 10:56 curtin-install.log
+-rw-r----- 1 root adm  103751 Jun 28 10:57 subiquity-server-debug.log.2164
+-rw-r----- 1 root adm  471592 Jun 28 10:57 installer-journal.txt
+
+/var/log/installer/block:
+total 52
+-rw-r--r-- 1 root root 15328 Jun 28 10:52 discover.log
+-rw-r--r-- 1 root root 33509 Jun 28 10:52 probe-data.json
